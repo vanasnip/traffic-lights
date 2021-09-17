@@ -8,8 +8,8 @@ const lights = [red, amber, green]
 lights.forEach( light => light.addEventListener('click', function(){
     clearActive(lights) // clear active from all lights
 
-    // if light clicked doesnt have active class, add it else ignore
-    if ( !light.classList.contains('active') ) light.classList.add('active')
+    // add active 
+    light.classList.add('active')
 
 }))
 

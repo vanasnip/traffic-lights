@@ -6,3 +6,6 @@
     margin: 10px
 }
 
+#red.active   { background-color: red;}
+#amber.active { background-color: orange;}
+#green.active { background-color: green;}
